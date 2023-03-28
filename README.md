@@ -11,7 +11,7 @@
 2. Create Python3 Virtual Enviroment
 	- python3 -m venv env
 3. Active the Virtaul Enviroment
-	- source env/bin/activat
+	- source env/bin/activate
 	- You should see (env) infront of your prompt
 4. Install Setup tools and pip
 	- pip3 install -U setuptools pip wheel
@@ -20,7 +20,7 @@
 	- pip install uvicorn
 	- pip install pydantic
 	- pip install pyodbc
-	- #(Mysql) pip install mysql-connector-python
+	- #(SQL server) pip install pymssql
 6. Move or copy config.py.sample to config.py	
 7. Run uvicorn web server
     - uvicorn api:app --reload --host=0.0.0.0 --port=9000
